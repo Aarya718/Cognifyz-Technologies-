@@ -27,13 +27,13 @@ This project builds a machine learning model to classify restaurants based on th
 This project develops a cuisine classification model using restaurant data, focusing on data preprocessing, visualization, and model evaluation.  
 
 ### **Steps:**  
-**Step 1: Load Dataset** – Reads restaurant data from a CSV file.  
-**Step 2: Data Cleaning** – Handles missing values, merges rare cuisines, and encodes categorical variables.  
-**Step 3: Data Visualization** – Generates key plots: cuisine distribution, rating histogram, cost distribution, correlation heatmap, and class imbalance check.  
-**Step 4: Feature Engineering** – Applies one-hot encoding to cuisines and normalizes numerical features.  
-**Step 5: Train-Test Split** – Splits the dataset into training and testing sets.  
-**Step 6: Model Training** – Trains a classifier (Random Forest/XGBoost) with class balancing techniques.  
-**Step 7: Model Evaluation** – Computes accuracy, precision, recall, and F1-score with `zero_division=1` to handle undefined metrics.  
-**Step 8: Address Class Imbalance** – Uses **SMOTE** to oversample minority cuisines and improves classification performance.  
-**Step 9: Testing** – Predicts cuisines for sample restaurants and analyzes misclassified cases.  
+- **Step 1: Load Dataset** – Reads restaurant data from a CSV file.  
+- **Step 2: Data Cleaning** – Handles missing values, merges rare cuisines, and encodes categorical variables.  
+- **Step 3: Data Visualization** – Generates key plots: cuisine distribution, rating histogram, cost distribution, correlation heatmap, and class imbalance check.  
+- **Step 4: Feature Engineering** – Applies one-hot encoding to cuisines and normalizes numerical features.  
+- **Step 5: Train-Test Split** – Splits the dataset into training and testing sets.  
+- **Step 6: Model Training** – Trains a classifier (Random Forest/XGBoost) with class balancing techniques.  
+- **Step 7: Model Evaluation** – Computes accuracy, precision, recall, and F1-score with `zero_division=1` to handle undefined metrics.  
+- **Step 8: Address Class Imbalance** – Uses **SMOTE** to oversample minority cuisines and improves classification performance.  
+- **Step 9: Testing** – Predicts cuisines for sample restaurants and analyzes misclassified cases.  
 
