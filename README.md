@@ -51,7 +51,7 @@ This project develops a cuisine classification model using restaurant data, focu
 
 - **Step 9: Testing** – Predicts cuisines for sample restaurants and analyzes misclassified cases.
 
-  ### **TASK 3 - Location-based Analysis**  
+  # TASK 3 - Location-based Analysis
 This project performs a geographical analysis of restaurants using location-based data to identify trends, clusters, and distribution patterns.  
 
 ### **Steps:**  
