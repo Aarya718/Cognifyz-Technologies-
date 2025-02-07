@@ -56,17 +56,17 @@ This project performs a geographical analysis of restaurants using location-base
 
 ### **Steps:**  
 
--**Step 1: Load Dataset** – Reads restaurant data from a CSV file.  
+- **Step 1: Load Dataset** – Reads restaurant data from a CSV file.  
 
--**Step 2: Data Cleaning** – Drops irrelevant columns, handles missing values, removes duplicates, corrects data types, and normalizes numerical features.  
+- **Step 2: Data Cleaning** – Drops irrelevant columns, handles missing values, removes duplicates, corrects data types, and normalizes numerical features.  
 
--**Step 3: Data Preprocessing** – Maps country codes to names, encodes categorical variables, standardizes numerical data, extracts primary cuisine, and categorizes price ranges.  
+- **Step 3: Data Preprocessing** – Maps country codes to names, encodes categorical variables, standardizes numerical data, extracts primary cuisine, and categorizes price ranges.  
 
--**Step 4: Data Visualization** – Generates key plots: rating distribution, restaurant locations scatterplot, price category distribution, votes vs. price boxplot, and correlation heatmap.  
+- **Step 4: Data Visualization** – Generates key plots: rating distribution, restaurant locations scatterplot, price category distribution, votes vs. price boxplot, and correlation heatmap.  
 
--**Step 5: Feature Engineering** – Creates a popularity score based on restaurant ratings and votes.  
+- **Step 5: Feature Engineering** – Creates a popularity score based on restaurant ratings and votes.  
 
--**Step 6: Geographical Clustering** – Applies K-Means clustering to identify restaurant location groups based on latitude and longitude.  
+- **Step 6: Geographical Clustering** – Applies K-Means clustering to identify restaurant location groups based on latitude and longitude.  
 
--**Step 7: Interactive Map Visualization** – Uses Folium to generate a heatmap showing restaurant density and rating influence across different areas.
+- **Step 7: Interactive Map Visualization** – Uses Folium to generate a heatmap showing restaurant density and rating influence across different areas.
 
