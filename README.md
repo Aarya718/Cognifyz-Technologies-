@@ -6,7 +6,7 @@ Internship date - 5th February to 5th March
 
 Postion - Machine Learning Intern 
 
-Overview of the Restaurant Recommendation System
+# TASK 1 - Restaurant Recommendation System
 
 This project builds a content-based restaurant recommendation system that suggests restaurants based on user preferences for cuisine type and price range.
 
