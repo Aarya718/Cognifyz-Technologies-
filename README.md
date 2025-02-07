@@ -49,5 +49,24 @@ This project develops a cuisine classification model using restaurant data, focu
 
 - **Step 8: Address Class Imbalance** – Uses **SMOTE** to oversample minority cuisines and improves classification performance.  
 
-- **Step 9: Testing** – Predicts cuisines for sample restaurants and analyzes misclassified cases.  
+- **Step 9: Testing** – Predicts cuisines for sample restaurants and analyzes misclassified cases.
+
+  ### **TASK 3 - Location-based Analysis**  
+This project performs a geographical analysis of restaurants using location-based data to identify trends, clusters, and distribution patterns.  
+
+### **Steps:**  
+
+-**Step 1: Load Dataset** – Reads restaurant data from a CSV file.  
+
+-**Step 2: Data Cleaning** – Drops irrelevant columns, handles missing values, removes duplicates, corrects data types, and normalizes numerical features.  
+
+-**Step 3: Data Preprocessing** – Maps country codes to names, encodes categorical variables, standardizes numerical data, extracts primary cuisine, and categorizes price ranges.  
+
+-**Step 4: Data Visualization** – Generates key plots: rating distribution, restaurant locations scatterplot, price category distribution, votes vs. price boxplot, and correlation heatmap.  
+
+-**Step 5: Feature Engineering** – Creates a popularity score based on restaurant ratings and votes.  
+
+-**Step 6: Geographical Clustering** – Applies K-Means clustering to identify restaurant location groups based on latitude and longitude.  
+
+-**Step 7: Interactive Map Visualization** – Uses Folium to generate a heatmap showing restaurant density and rating influence across different areas.
 
